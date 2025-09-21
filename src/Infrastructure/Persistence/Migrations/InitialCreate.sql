@@ -1,0 +1,3 @@
+-- Simplified SQL to create domain tables for demo.
+CREATE TABLE WebPages (Id INT IDENTITY(1,1) PRIMARY KEY, Name NVARCHAR(200) NOT NULL, Slug NVARCHAR(200) NOT NULL);
+CREATE TABLE PageSections (Id INT IDENTITY(1,1) PRIMARY KEY, WebPageId INT NOT NULL, Header NVARCHAR(200), Content NVARCHAR(MAX), [Order] INT);

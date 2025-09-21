@@ -1,0 +1,18 @@
+using System;
+using System.Text;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.AspNetCore.Builder;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.IdentityModel.Tokens;
+var builder = WebApplication.CreateBuilder(args);
+var jwtSecret = builder.Configuration["Jwt:Secret"] ?? "DevSecretKeyDontUseInProd123!";
+var key = Encoding.UTF8.GetBytes(jwtSecret);
+builder.Services.AddAuthentication(options => { options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme; options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme; }).AddJwtBearer(options => { options.RequireHttpsMetadata = false; options.SaveToken = true; options.TokenValidationParameters = new TokenValidationParameters { ValidateIssuerSigningKey = true, IssuerSigningKey = new SymmetricSecurityKey(key), ValidateIssuer = false, ValidateAudience = false }; });
+builder.Services.AddHttpClient("CoreApi", c => c.BaseAddress = new Uri(builder.Configuration["CoreApi:BaseUrl"] ?? "https://localhost:5001/"));
+builder.Services.AddAuthorization(options => options.AddPolicy("AdminOnly", p => p.RequireRole("Admin")));
+builder.Services.AddControllers();
+var app = builder.Build();
+app.UseAuthentication();
+app.UseAuthorization();
+app.MapControllers();
+app.Run();

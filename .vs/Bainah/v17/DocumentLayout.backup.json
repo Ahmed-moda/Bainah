@@ -1,0 +1,551 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Bainah\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{22222222-2222-2222-2222-222222222222}|src\\Infrastructure\\Infrastructure.csproj|d:\\bainah\\src\\infrastructure\\repositories\\pagesectionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22222222-2222-2222-2222-222222222222}|src\\Infrastructure\\Infrastructure.csproj|solutionrelative:src\\infrastructure\\repositories\\pagesectionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33333333-3333-3333-3333-333333333333}|src\\CoreApi\\CoreApi.csproj|d:\\bainah\\src\\coreapi\\controllers\\pagesectionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33333333-3333-3333-3333-333333333333}|src\\CoreApi\\CoreApi.csproj|solutionrelative:src\\coreapi\\controllers\\pagesectionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\Core\\Core.csproj|d:\\bainah\\src\\core\\dtos\\pagesectionupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\Core\\Core.csproj|solutionrelative:src\\core\\dtos\\pagesectionupdatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22222222-2222-2222-2222-222222222222}|src\\Infrastructure\\Infrastructure.csproj|d:\\bainah\\src\\infrastructure\\repositories\\webpagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22222222-2222-2222-2222-222222222222}|src\\Infrastructure\\Infrastructure.csproj|solutionrelative:src\\infrastructure\\repositories\\webpagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33333333-3333-3333-3333-333333333333}|src\\CoreApi\\CoreApi.csproj|d:\\bainah\\src\\coreapi\\controllers\\webpagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33333333-3333-3333-3333-333333333333}|src\\CoreApi\\CoreApi.csproj|solutionrelative:src\\coreapi\\controllers\\webpagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33333333-3333-3333-3333-333333333333}|src\\CoreApi\\CoreApi.csproj|d:\\bainah\\src\\coreapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33333333-3333-3333-3333-333333333333}|src\\CoreApi\\CoreApi.csproj|solutionrelative:src\\coreapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33333333-3333-3333-3333-333333333333}|src\\CoreApi\\CoreApi.csproj|d:\\bainah\\src\\coreapi\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33333333-3333-3333-3333-333333333333}|src\\CoreApi\\CoreApi.csproj|solutionrelative:src\\coreapi\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\Core\\Core.csproj|d:\\bainah\\src\\core\\interfaces\\iwebpagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\Core\\Core.csproj|solutionrelative:src\\core\\interfaces\\iwebpagerepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\Core\\Core.csproj|d:\\bainah\\src\\core\\dtos\\pages\\webpagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\Core\\Core.csproj|solutionrelative:src\\core\\dtos\\pages\\webpagedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\Core\\Core.csproj|d:\\bainah\\src\\core\\dtos\\pages\\pagesectiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\Core\\Core.csproj|solutionrelative:src\\core\\dtos\\pages\\pagesectiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22222222-2222-2222-2222-222222222222}|src\\Infrastructure\\Infrastructure.csproj|d:\\bainah\\src\\infrastructure\\infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{22222222-2222-2222-2222-222222222222}|src\\Infrastructure\\Infrastructure.csproj|solutionrelative:src\\infrastructure\\infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\Core\\Core.csproj|d:\\bainah\\src\\core\\core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\Core\\Core.csproj|solutionrelative:src\\core\\core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44444444-4444-4444-4444-444444444444}|src\\PublicBFF\\PublicBFF.csproj|d:\\bainah\\src\\publicbff\\publicbff.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{44444444-4444-4444-4444-444444444444}|src\\PublicBFF\\PublicBFF.csproj|solutionrelative:src\\publicbff\\publicbff.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33333333-3333-3333-3333-333333333333}|src\\CoreApi\\CoreApi.csproj|d:\\bainah\\src\\coreapi\\coreapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{33333333-3333-3333-3333-333333333333}|src\\CoreApi\\CoreApi.csproj|solutionrelative:src\\coreapi\\coreapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\Core\\Core.csproj|d:\\bainah\\src\\core\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{11111111-1111-1111-1111-111111111111}|src\\Core\\Core.csproj|solutionrelative:src\\core\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33333333-3333-3333-3333-333333333333}|src\\CoreApi\\CoreApi.csproj|d:\\bainah\\src\\coreapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{33333333-3333-3333-3333-333333333333}|src\\CoreApi\\CoreApi.csproj|solutionrelative:src\\coreapi\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{22222222-2222-2222-2222-222222222222}|src\\Infrastructure\\Infrastructure.csproj|d:\\bainah\\src\\infrastructure\\security\\otpservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{22222222-2222-2222-2222-222222222222}|src\\Infrastructure\\Infrastructure.csproj|solutionrelative:src\\infrastructure\\security\\otpservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44444444-4444-4444-4444-444444444444}|src\\PublicBFF\\PublicBFF.csproj|d:\\bainah\\src\\publicbff\\controllers\\eventcategoryscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44444444-4444-4444-4444-444444444444}|src\\PublicBFF\\PublicBFF.csproj|solutionrelative:src\\publicbff\\controllers\\eventcategoryscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44444444-4444-4444-4444-444444444444}|src\\PublicBFF\\PublicBFF.csproj|d:\\bainah\\src\\publicbff\\controllers\\noticescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44444444-4444-4444-4444-444444444444}|src\\PublicBFF\\PublicBFF.csproj|solutionrelative:src\\publicbff\\controllers\\noticescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44444444-4444-4444-4444-444444444444}|src\\PublicBFF\\PublicBFF.csproj|d:\\bainah\\src\\publicbff\\controllers\\webpagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44444444-4444-4444-4444-444444444444}|src\\PublicBFF\\PublicBFF.csproj|solutionrelative:src\\publicbff\\controllers\\webpagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44444444-4444-4444-4444-444444444444}|src\\PublicBFF\\PublicBFF.csproj|d:\\bainah\\src\\publicbff\\controllers\\pagesectionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44444444-4444-4444-4444-444444444444}|src\\PublicBFF\\PublicBFF.csproj|solutionrelative:src\\publicbff\\controllers\\pagesectionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44444444-4444-4444-4444-444444444444}|src\\PublicBFF\\PublicBFF.csproj|d:\\bainah\\src\\publicbff\\controllers\\noticecategoryscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44444444-4444-4444-4444-444444444444}|src\\PublicBFF\\PublicBFF.csproj|solutionrelative:src\\publicbff\\controllers\\noticecategoryscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44444444-4444-4444-4444-444444444444}|src\\PublicBFF\\PublicBFF.csproj|d:\\bainah\\src\\publicbff\\controllers\\inquiryscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44444444-4444-4444-4444-444444444444}|src\\PublicBFF\\PublicBFF.csproj|solutionrelative:src\\publicbff\\controllers\\inquiryscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44444444-4444-4444-4444-444444444444}|src\\PublicBFF\\PublicBFF.csproj|d:\\bainah\\src\\publicbff\\controllers\\inquirycategoryscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44444444-4444-4444-4444-444444444444}|src\\PublicBFF\\PublicBFF.csproj|solutionrelative:src\\publicbff\\controllers\\inquirycategoryscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{44444444-4444-4444-4444-444444444444}|src\\PublicBFF\\PublicBFF.csproj|d:\\bainah\\src\\publicbff\\controllers\\accountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{44444444-4444-4444-4444-444444444444}|src\\PublicBFF\\PublicBFF.csproj|solutionrelative:src\\publicbff\\controllers\\accountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55555555-5555-5555-5555-555555555555}|src\\AdminBFF\\AdminBFF.csproj|d:\\bainah\\src\\adminbff\\controllers\\webpagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55555555-5555-5555-5555-555555555555}|src\\AdminBFF\\AdminBFF.csproj|solutionrelative:src\\adminbff\\controllers\\webpagescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55555555-5555-5555-5555-555555555555}|src\\AdminBFF\\AdminBFF.csproj|d:\\bainah\\src\\adminbff\\controllers\\pagesectionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55555555-5555-5555-5555-555555555555}|src\\AdminBFF\\AdminBFF.csproj|solutionrelative:src\\adminbff\\controllers\\pagesectionscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55555555-5555-5555-5555-555555555555}|src\\AdminBFF\\AdminBFF.csproj|d:\\bainah\\src\\adminbff\\controllers\\noticescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55555555-5555-5555-5555-555555555555}|src\\AdminBFF\\AdminBFF.csproj|solutionrelative:src\\adminbff\\controllers\\noticescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55555555-5555-5555-5555-555555555555}|src\\AdminBFF\\AdminBFF.csproj|d:\\bainah\\src\\adminbff\\controllers\\noticecategoryscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55555555-5555-5555-5555-555555555555}|src\\AdminBFF\\AdminBFF.csproj|solutionrelative:src\\adminbff\\controllers\\noticecategoryscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55555555-5555-5555-5555-555555555555}|src\\AdminBFF\\AdminBFF.csproj|d:\\bainah\\src\\adminbff\\controllers\\inquiryscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55555555-5555-5555-5555-555555555555}|src\\AdminBFF\\AdminBFF.csproj|solutionrelative:src\\adminbff\\controllers\\inquiryscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55555555-5555-5555-5555-555555555555}|src\\AdminBFF\\AdminBFF.csproj|d:\\bainah\\src\\adminbff\\controllers\\inquirycategoryscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55555555-5555-5555-5555-555555555555}|src\\AdminBFF\\AdminBFF.csproj|solutionrelative:src\\adminbff\\controllers\\inquirycategoryscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55555555-5555-5555-5555-555555555555}|src\\AdminBFF\\AdminBFF.csproj|d:\\bainah\\src\\adminbff\\controllers\\eventcategoryscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55555555-5555-5555-5555-555555555555}|src\\AdminBFF\\AdminBFF.csproj|solutionrelative:src\\adminbff\\controllers\\eventcategoryscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{55555555-5555-5555-5555-555555555555}|src\\AdminBFF\\AdminBFF.csproj|d:\\bainah\\src\\adminbff\\controllers\\accountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{55555555-5555-5555-5555-555555555555}|src\\AdminBFF\\AdminBFF.csproj|solutionrelative:src\\adminbff\\controllers\\accountscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PageSectionRepository.cs",
+              "DocumentMoniker": "D:\\Bainah\\src\\Infrastructure\\Repositories\\PageSectionRepository.cs",
+              "RelativeDocumentMoniker": "src\\Infrastructure\\Repositories\\PageSectionRepository.cs",
+              "ToolTip": "D:\\Bainah\\src\\Infrastructure\\Repositories\\PageSectionRepository.cs*",
+              "RelativeToolTip": "src\\Infrastructure\\Repositories\\PageSectionRepository.cs*",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAACQAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T06:33:27.571Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PageSectionUpdateDto.cs",
+              "DocumentMoniker": "D:\\Bainah\\src\\Core\\DTOs\\PageSectionUpdateDto.cs",
+              "RelativeDocumentMoniker": "src\\Core\\DTOs\\PageSectionUpdateDto.cs",
+              "ToolTip": "D:\\Bainah\\src\\Core\\DTOs\\PageSectionUpdateDto.cs",
+              "RelativeToolTip": "src\\Core\\DTOs\\PageSectionUpdateDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA4AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T07:14:58.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PageSectionsController.cs",
+              "DocumentMoniker": "D:\\Bainah\\src\\CoreApi\\Controllers\\PageSectionsController.cs",
+              "RelativeDocumentMoniker": "src\\CoreApi\\Controllers\\PageSectionsController.cs",
+              "ToolTip": "D:\\Bainah\\src\\CoreApi\\Controllers\\PageSectionsController.cs",
+              "RelativeToolTip": "src\\CoreApi\\Controllers\\PageSectionsController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABUAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T15:36:27.838Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "WebPageDto.cs",
+              "DocumentMoniker": "D:\\Bainah\\src\\Core\\DTOs\\Pages\\WebPageDto.cs",
+              "RelativeDocumentMoniker": "src\\Core\\DTOs\\Pages\\WebPageDto.cs",
+              "ToolTip": "D:\\Bainah\\src\\Core\\DTOs\\Pages\\WebPageDto.cs",
+              "RelativeToolTip": "src\\Core\\DTOs\\Pages\\WebPageDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T14:55:15.15Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Bainah\\src\\CoreApi\\Program.cs",
+              "RelativeDocumentMoniker": "src\\CoreApi\\Program.cs",
+              "ToolTip": "D:\\Bainah\\src\\CoreApi\\Program.cs",
+              "RelativeToolTip": "src\\CoreApi\\Program.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAACYAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T07:29:22.262Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "UsersController.cs",
+              "DocumentMoniker": "D:\\Bainah\\src\\CoreApi\\Controllers\\UsersController.cs",
+              "RelativeDocumentMoniker": "src\\CoreApi\\Controllers\\UsersController.cs",
+              "ToolTip": "D:\\Bainah\\src\\CoreApi\\Controllers\\UsersController.cs",
+              "RelativeToolTip": "src\\CoreApi\\Controllers\\UsersController.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAYwF0AAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T10:16:50.669Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IWebPageRepository.cs",
+              "DocumentMoniker": "D:\\Bainah\\src\\Core\\Interfaces\\IWebPageRepository.cs",
+              "RelativeDocumentMoniker": "src\\Core\\Interfaces\\IWebPageRepository.cs",
+              "ToolTip": "D:\\Bainah\\src\\Core\\Interfaces\\IWebPageRepository.cs",
+              "RelativeToolTip": "src\\Core\\Interfaces\\IWebPageRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA4AAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T14:26:57.976Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "WebPageRepository.cs",
+              "DocumentMoniker": "D:\\Bainah\\src\\Infrastructure\\Repositories\\WebPageRepository.cs",
+              "RelativeDocumentMoniker": "src\\Infrastructure\\Repositories\\WebPageRepository.cs",
+              "ToolTip": "D:\\Bainah\\src\\Infrastructure\\Repositories\\WebPageRepository.cs",
+              "RelativeToolTip": "src\\Infrastructure\\Repositories\\WebPageRepository.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAADcAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T14:36:13.83Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "WebPagesController.cs",
+              "DocumentMoniker": "D:\\Bainah\\src\\CoreApi\\Controllers\\WebPagesController.cs",
+              "RelativeDocumentMoniker": "src\\CoreApi\\Controllers\\WebPagesController.cs",
+              "ToolTip": "D:\\Bainah\\src\\CoreApi\\Controllers\\WebPagesController.cs",
+              "RelativeToolTip": "src\\CoreApi\\Controllers\\WebPagesController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T15:04:51.285Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PageSectionDto.cs",
+              "DocumentMoniker": "D:\\Bainah\\src\\Core\\DTOs\\Pages\\PageSectionDto.cs",
+              "RelativeDocumentMoniker": "src\\Core\\DTOs\\Pages\\PageSectionDto.cs",
+              "ToolTip": "D:\\Bainah\\src\\Core\\DTOs\\Pages\\PageSectionDto.cs",
+              "RelativeToolTip": "src\\Core\\DTOs\\Pages\\PageSectionDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T14:54:06.06Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Infrastructure.csproj",
+              "DocumentMoniker": "D:\\Bainah\\src\\Infrastructure\\Infrastructure.csproj",
+              "RelativeDocumentMoniker": "src\\Infrastructure\\Infrastructure.csproj",
+              "ToolTip": "D:\\Bainah\\src\\Infrastructure\\Infrastructure.csproj",
+              "RelativeToolTip": "src\\Infrastructure\\Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-09-19T08:25:49.247Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Core.csproj",
+              "DocumentMoniker": "D:\\Bainah\\src\\Core\\Core.csproj",
+              "RelativeDocumentMoniker": "src\\Core\\Core.csproj",
+              "ToolTip": "D:\\Bainah\\src\\Core\\Core.csproj",
+              "RelativeToolTip": "src\\Core\\Core.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-09-19T09:45:40.694Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "CoreApi.csproj",
+              "DocumentMoniker": "D:\\Bainah\\src\\CoreApi\\CoreApi.csproj",
+              "RelativeDocumentMoniker": "src\\CoreApi\\CoreApi.csproj",
+              "ToolTip": "D:\\Bainah\\src\\CoreApi\\CoreApi.csproj",
+              "RelativeToolTip": "src\\CoreApi\\CoreApi.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-09-19T08:52:29.129Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\Bainah\\src\\Core\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "src\\Core\\Entities\\User.cs",
+              "ToolTip": "D:\\Bainah\\src\\Core\\Entities\\User.cs",
+              "RelativeToolTip": "src\\Core\\Entities\\User.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAA1wAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-19T09:37:47.036Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "PublicBFF.csproj",
+              "DocumentMoniker": "D:\\Bainah\\src\\PublicBFF\\PublicBFF.csproj",
+              "RelativeDocumentMoniker": "src\\PublicBFF\\PublicBFF.csproj",
+              "ToolTip": "D:\\Bainah\\src\\PublicBFF\\PublicBFF.csproj",
+              "RelativeToolTip": "src\\PublicBFF\\PublicBFF.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-09-19T09:38:09.57Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "D:\\Bainah\\src\\CoreApi\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "src\\CoreApi\\appsettings.Development.json",
+              "ToolTip": "D:\\Bainah\\src\\CoreApi\\appsettings.Development.json",
+              "RelativeToolTip": "src\\CoreApi\\appsettings.Development.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-09-19T06:37:51.081Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "OtpService.cs",
+              "DocumentMoniker": "D:\\Bainah\\src\\Infrastructure\\Security\\OtpService.cs",
+              "RelativeDocumentMoniker": "src\\Infrastructure\\Security\\OtpService.cs",
+              "ToolTip": "D:\\Bainah\\src\\Infrastructure\\Security\\OtpService.cs",
+              "RelativeToolTip": "src\\Infrastructure\\Security\\OtpService.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAQwBoAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-17T10:19:08.034Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "EventCategorysController.cs",
+              "DocumentMoniker": "D:\\Bainah\\src\\PublicBFF\\Controllers\\EventCategorysController.cs",
+              "RelativeDocumentMoniker": "src\\PublicBFF\\Controllers\\EventCategorysController.cs",
+              "ToolTip": "D:\\Bainah\\src\\PublicBFF\\Controllers\\EventCategorysController.cs",
+              "RelativeToolTip": "src\\PublicBFF\\Controllers\\EventCategorysController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T01:58:35.226Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "NoticesController.cs",
+              "DocumentMoniker": "D:\\Bainah\\src\\PublicBFF\\Controllers\\NoticesController.cs",
+              "RelativeDocumentMoniker": "src\\PublicBFF\\Controllers\\NoticesController.cs",
+              "ToolTip": "D:\\Bainah\\src\\PublicBFF\\Controllers\\NoticesController.cs",
+              "RelativeToolTip": "src\\PublicBFF\\Controllers\\NoticesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T01:58:58.515Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "NoticeCategorysController.cs",
+              "DocumentMoniker": "D:\\Bainah\\src\\PublicBFF\\Controllers\\NoticeCategorysController.cs",
+              "RelativeDocumentMoniker": "src\\PublicBFF\\Controllers\\NoticeCategorysController.cs",
+              "ToolTip": "D:\\Bainah\\src\\PublicBFF\\Controllers\\NoticeCategorysController.cs",
+              "RelativeToolTip": "src\\PublicBFF\\Controllers\\NoticeCategorysController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T01:58:53.387Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "WebPagesController.cs",
+              "DocumentMoniker": "D:\\Bainah\\src\\PublicBFF\\Controllers\\WebPagesController.cs",
+              "RelativeDocumentMoniker": "src\\PublicBFF\\Controllers\\WebPagesController.cs",
+              "ToolTip": "D:\\Bainah\\src\\PublicBFF\\Controllers\\WebPagesController.cs",
+              "RelativeToolTip": "src\\PublicBFF\\Controllers\\WebPagesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T02:01:23.99Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "PageSectionsController.cs",
+              "DocumentMoniker": "D:\\Bainah\\src\\PublicBFF\\Controllers\\PageSectionsController.cs",
+              "RelativeDocumentMoniker": "src\\PublicBFF\\Controllers\\PageSectionsController.cs",
+              "ToolTip": "D:\\Bainah\\src\\PublicBFF\\Controllers\\PageSectionsController.cs",
+              "RelativeToolTip": "src\\PublicBFF\\Controllers\\PageSectionsController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAowBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T01:59:03.368Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "InquirysController.cs",
+              "DocumentMoniker": "D:\\Bainah\\src\\PublicBFF\\Controllers\\InquirysController.cs",
+              "RelativeDocumentMoniker": "src\\PublicBFF\\Controllers\\InquirysController.cs",
+              "ToolTip": "D:\\Bainah\\src\\PublicBFF\\Controllers\\InquirysController.cs",
+              "RelativeToolTip": "src\\PublicBFF\\Controllers\\InquirysController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T01:58:48.512Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "InquiryCategorysController.cs",
+              "DocumentMoniker": "D:\\Bainah\\src\\PublicBFF\\Controllers\\InquiryCategorysController.cs",
+              "RelativeDocumentMoniker": "src\\PublicBFF\\Controllers\\InquiryCategorysController.cs",
+              "ToolTip": "D:\\Bainah\\src\\PublicBFF\\Controllers\\InquiryCategorysController.cs",
+              "RelativeToolTip": "src\\PublicBFF\\Controllers\\InquiryCategorysController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T01:58:43.097Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "AccountsController.cs",
+              "DocumentMoniker": "D:\\Bainah\\src\\PublicBFF\\Controllers\\AccountsController.cs",
+              "RelativeDocumentMoniker": "src\\PublicBFF\\Controllers\\AccountsController.cs",
+              "ToolTip": "D:\\Bainah\\src\\PublicBFF\\Controllers\\AccountsController.cs",
+              "RelativeToolTip": "src\\PublicBFF\\Controllers\\AccountsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T01:58:26.208Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "WebPagesController.cs",
+              "DocumentMoniker": "D:\\Bainah\\src\\AdminBFF\\Controllers\\WebPagesController.cs",
+              "RelativeDocumentMoniker": "src\\AdminBFF\\Controllers\\WebPagesController.cs",
+              "ToolTip": "D:\\Bainah\\src\\AdminBFF\\Controllers\\WebPagesController.cs",
+              "RelativeToolTip": "src\\AdminBFF\\Controllers\\WebPagesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T01:56:03.967Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "PageSectionsController.cs",
+              "DocumentMoniker": "D:\\Bainah\\src\\AdminBFF\\Controllers\\PageSectionsController.cs",
+              "RelativeDocumentMoniker": "src\\AdminBFF\\Controllers\\PageSectionsController.cs",
+              "ToolTip": "D:\\Bainah\\src\\AdminBFF\\Controllers\\PageSectionsController.cs",
+              "RelativeToolTip": "src\\AdminBFF\\Controllers\\PageSectionsController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T01:55:45.343Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "NoticesController.cs",
+              "DocumentMoniker": "D:\\Bainah\\src\\AdminBFF\\Controllers\\NoticesController.cs",
+              "RelativeDocumentMoniker": "src\\AdminBFF\\Controllers\\NoticesController.cs",
+              "ToolTip": "D:\\Bainah\\src\\AdminBFF\\Controllers\\NoticesController.cs",
+              "RelativeToolTip": "src\\AdminBFF\\Controllers\\NoticesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T01:55:18.94Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "NoticeCategorysController.cs",
+              "DocumentMoniker": "D:\\Bainah\\src\\AdminBFF\\Controllers\\NoticeCategorysController.cs",
+              "RelativeDocumentMoniker": "src\\AdminBFF\\Controllers\\NoticeCategorysController.cs",
+              "ToolTip": "D:\\Bainah\\src\\AdminBFF\\Controllers\\NoticeCategorysController.cs",
+              "RelativeToolTip": "src\\AdminBFF\\Controllers\\NoticeCategorysController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T01:55:00.733Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "InquirysController.cs",
+              "DocumentMoniker": "D:\\Bainah\\src\\AdminBFF\\Controllers\\InquirysController.cs",
+              "RelativeDocumentMoniker": "src\\AdminBFF\\Controllers\\InquirysController.cs",
+              "ToolTip": "D:\\Bainah\\src\\AdminBFF\\Controllers\\InquirysController.cs",
+              "RelativeToolTip": "src\\AdminBFF\\Controllers\\InquirysController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T01:54:41.325Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "InquiryCategorysController.cs",
+              "DocumentMoniker": "D:\\Bainah\\src\\AdminBFF\\Controllers\\InquiryCategorysController.cs",
+              "RelativeDocumentMoniker": "src\\AdminBFF\\Controllers\\InquiryCategorysController.cs",
+              "ToolTip": "D:\\Bainah\\src\\AdminBFF\\Controllers\\InquiryCategorysController.cs",
+              "RelativeToolTip": "src\\AdminBFF\\Controllers\\InquiryCategorysController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAACBjwAsAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T01:54:17.324Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "EventCategorysController.cs",
+              "DocumentMoniker": "D:\\Bainah\\src\\AdminBFF\\Controllers\\EventCategorysController.cs",
+              "RelativeDocumentMoniker": "src\\AdminBFF\\Controllers\\EventCategorysController.cs",
+              "ToolTip": "D:\\Bainah\\src\\AdminBFF\\Controllers\\EventCategorysController.cs",
+              "RelativeToolTip": "src\\AdminBFF\\Controllers\\EventCategorysController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAsAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T01:53:53.848Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "AccountsController.cs",
+              "DocumentMoniker": "D:\\Bainah\\src\\AdminBFF\\Controllers\\AccountsController.cs",
+              "RelativeDocumentMoniker": "src\\AdminBFF\\Controllers\\AccountsController.cs",
+              "ToolTip": "D:\\Bainah\\src\\AdminBFF\\Controllers\\AccountsController.cs",
+              "RelativeToolTip": "src\\AdminBFF\\Controllers\\AccountsController.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAsAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-13T01:53:22.016Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

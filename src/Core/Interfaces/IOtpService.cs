@@ -1,4 +1,5 @@
 ﻿using Bainah.Core.Entities;
+using Core.DTOs.Otp;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,7 +10,7 @@ namespace Core.Interfaces
 {
     public interface IOtpService
     {
-        Task<string> GenerateOtpAsync(User user);
+        Task<OtpExpDto> GenerateOtpAsync(User user);
         Task<bool> ValidateOtpAsync(User user, string otp);
     }
 }

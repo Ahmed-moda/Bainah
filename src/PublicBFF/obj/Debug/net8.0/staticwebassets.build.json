@@ -1,1 +1,70 @@
-{"Version":1,"Hash":"prGOXxICLrjnnQqMNXRK9c5selBTb0sy/PoWDTgnsVU=","Source":"PublicBFF","BasePath":"_content/PublicBFF","Mode":"Default","ManifestType":"Build","ReferencedProjectsConfiguration":[{"Identity":"D:\\Bainah\\src\\CoreApi\\CoreApi.csproj","Version":2,"Source":"CoreApi","GetPublishAssetsTargets":"ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems","AdditionalPublishProperties":"Configuration=Debug;Platform=AnyCPU","AdditionalPublishPropertiesToRemove":"WebPublishProfileFile;TargetFramework","GetBuildAssetsTargets":"GetCurrentProjectBuildStaticWebAssetItems","AdditionalBuildProperties":"Configuration=Debug;Platform=AnyCPU","AdditionalBuildPropertiesToRemove":"WebPublishProfileFile;TargetFramework"}],"DiscoveryPatterns":[{"Name":"CoreApi\\wwwroot","Source":"CoreApi","ContentRoot":"D:\\Bainah\\src\\CoreApi\\wwwroot\\","BasePath":"_content/CoreApi","Pattern":"**"}],"Assets":[{"Identity":"D:\\Bainah\\src\\CoreApi\\wwwroot\\uploads\\sections\\Screenshot (1).png","SourceId":"CoreApi","SourceType":"Project","ContentRoot":"D:\\Bainah\\src\\CoreApi\\wwwroot\\","BasePath":"_content/CoreApi","RelativePath":"uploads/sections/Screenshot (1)#[.{fingerprint}]?.png","AssetKind":"All","AssetMode":"All","AssetRole":"Primary","AssetMergeBehavior":"","AssetMergeSource":"","RelatedAsset":"","AssetTraitName":"","AssetTraitValue":"","Fingerprint":"w060m751h9","Integrity":"gACdhpyPLAkOZzLBNu/zhROqeikUueZjmnUVzH909u4=","CopyToOutputDirectory":"Never","CopyToPublishDirectory":"PreserveNewest","OriginalItemSpec":"wwwroot\\uploads\\sections\\Screenshot (1).png","FileLength":278009,"LastWriteTime":"2025-06-10T13:02:26+00:00"},{"Identity":"D:\\Bainah\\src\\CoreApi\\wwwroot\\uploads\\sections\\Screenshot (2).png","SourceId":"CoreApi","SourceType":"Project","ContentRoot":"D:\\Bainah\\src\\CoreApi\\wwwroot\\","BasePath":"_content/CoreApi","RelativePath":"uploads/sections/Screenshot (2)#[.{fingerprint}]?.png","AssetKind":"All","AssetMode":"All","AssetRole":"Primary","AssetMergeBehavior":"","AssetMergeSource":"","RelatedAsset":"","AssetTraitName":"","AssetTraitValue":"","Fingerprint":"7iuswpy4t1","Integrity":"b82MRoibuGR2CfWmNcf4gwQNwRHOhKCrozDd5yCiIcg=","CopyToOutputDirectory":"Never","CopyToPublishDirectory":"PreserveNewest","OriginalItemSpec":"wwwroot\\uploads\\sections\\Screenshot (2).png","FileLength":274057,"LastWriteTime":"2025-06-10T13:08:26+00:00"}],"Endpoints":[{"Route":"_content/CoreApi/uploads/sections/Screenshot (1).png","AssetFile":"D:\\Bainah\\src\\CoreApi\\wwwroot\\uploads\\sections\\Screenshot (1).png","Selectors":[],"ResponseHeaders":[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"278009"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\"gACdhpyPLAkOZzLBNu/zhROqeikUueZjmnUVzH909u4=\""},{"Name":"Last-Modified","Value":"Tue, 10 Jun 2025 13:02:26 GMT"}],"EndpointProperties":[{"Name":"integrity","Value":"sha256-gACdhpyPLAkOZzLBNu/zhROqeikUueZjmnUVzH909u4="}]},{"Route":"_content/CoreApi/uploads/sections/Screenshot (1).w060m751h9.png","AssetFile":"D:\\Bainah\\src\\CoreApi\\wwwroot\\uploads\\sections\\Screenshot (1).png","Selectors":[],"ResponseHeaders":[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"278009"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\"gACdhpyPLAkOZzLBNu/zhROqeikUueZjmnUVzH909u4=\""},{"Name":"Last-Modified","Value":"Tue, 10 Jun 2025 13:02:26 GMT"}],"EndpointProperties":[{"Name":"fingerprint","Value":"w060m751h9"},{"Name":"integrity","Value":"sha256-gACdhpyPLAkOZzLBNu/zhROqeikUueZjmnUVzH909u4="},{"Name":"label","Value":"_content/CoreApi/uploads/sections/Screenshot (1).png"}]},{"Route":"_content/CoreApi/uploads/sections/Screenshot (2).7iuswpy4t1.png","AssetFile":"D:\\Bainah\\src\\CoreApi\\wwwroot\\uploads\\sections\\Screenshot (2).png","Selectors":[],"ResponseHeaders":[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"274057"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\"b82MRoibuGR2CfWmNcf4gwQNwRHOhKCrozDd5yCiIcg=\""},{"Name":"Last-Modified","Value":"Tue, 10 Jun 2025 13:08:26 GMT"}],"EndpointProperties":[{"Name":"fingerprint","Value":"7iuswpy4t1"},{"Name":"integrity","Value":"sha256-b82MRoibuGR2CfWmNcf4gwQNwRHOhKCrozDd5yCiIcg="},{"Name":"label","Value":"_content/CoreApi/uploads/sections/Screenshot (2).png"}]},{"Route":"_content/CoreApi/uploads/sections/Screenshot (2).png","AssetFile":"D:\\Bainah\\src\\CoreApi\\wwwroot\\uploads\\sections\\Screenshot (2).png","Selectors":[],"ResponseHeaders":[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"no-cache"},{"Name":"Content-Length","Value":"274057"},{"Name":"Content-Type","Value":"image/png"},{"Name":"ETag","Value":"\"b82MRoibuGR2CfWmNcf4gwQNwRHOhKCrozDd5yCiIcg=\""},{"Name":"Last-Modified","Value":"Tue, 10 Jun 2025 13:08:26 GMT"}],"EndpointProperties":[{"Name":"integrity","Value":"sha256-b82MRoibuGR2CfWmNcf4gwQNwRHOhKCrozDd5yCiIcg="}]}]}
+{
+  "Version": 1,
+  "Hash": "v0S7KBNAwE01G8dFQG+bx22qDcon+J1+0jurbCVhjrw=",
+  "Source": "PublicBFF",
+  "BasePath": "_content/PublicBFF",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "F:\\BInah\\Bainah\\src\\CoreApi\\CoreApi.csproj",
+      "Version": 2,
+      "Source": "CoreApi",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework"
+    }
+  ],
+  "DiscoveryPatterns": [
+    {
+      "Name": "CoreApi\\wwwroot",
+      "Source": "CoreApi",
+      "ContentRoot": "F:\\BInah\\Bainah\\src\\CoreApi\\wwwroot\\",
+      "BasePath": "_content/CoreApi",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "F:\\BInah\\Bainah\\src\\CoreApi\\wwwroot\\uploads\\sections\\542605ee-d866-49af-ad3b-05975b2ee6c1.png",
+      "SourceId": "CoreApi",
+      "SourceType": "Project",
+      "ContentRoot": "F:\\BInah\\Bainah\\src\\CoreApi\\wwwroot\\",
+      "BasePath": "_content/CoreApi",
+      "RelativePath": "uploads/sections/542605ee-d866-49af-ad3b-05975b2ee6c1.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\sections\\542605ee-d866-49af-ad3b-05975b2ee6c1.png"
+    },
+    {
+      "Identity": "F:\\BInah\\Bainah\\src\\CoreApi\\wwwroot\\uploads\\sections\\fbaa35e0-c0fe-459f-9d6e-66b3832dbd84.png",
+      "SourceId": "CoreApi",
+      "SourceType": "Project",
+      "ContentRoot": "F:\\BInah\\Bainah\\src\\CoreApi\\wwwroot\\",
+      "BasePath": "_content/CoreApi",
+      "RelativePath": "uploads/sections/fbaa35e0-c0fe-459f-9d6e-66b3832dbd84.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\uploads\\sections\\fbaa35e0-c0fe-459f-9d6e-66b3832dbd84.png"
+    }
+  ]
+}

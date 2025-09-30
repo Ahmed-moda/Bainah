@@ -1,0 +1,9 @@
+namespace Bainah.Core.Entities;
+
+public class Nationality
+{
+    public int Id { get; set; }
+    public string NameAr { get; set; } = default!;
+    public string NameEn { get; set; } = default!;
+    public ICollection<User>? Users { get; set; }
+}

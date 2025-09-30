@@ -1,4 +1,5 @@
-﻿using Bainah.Core.Entities;
+﻿using Bainah.Core.DTOs.Pages;
+using Bainah.Core.Entities;
 using Bainah.CoreApi.Common;
 using Bainah.Infrastructure.Persistence;
 using Core.DTOs.Pages;

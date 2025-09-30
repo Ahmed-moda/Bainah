@@ -1,4 +1,5 @@
-﻿using Bainah.Core.Entities;
+﻿using Bainah.Core.DTOs.Pages;
+using Bainah.Core.Entities;
 using Bainah.Core.Interfaces;
 using Bainah.CoreApi.Common;
 using CoreApi.DTOs;
@@ -12,7 +13,7 @@ namespace Core.Interfaces
 {
     public interface IPageSection
     {
-        Task<IEnumerable<PageSection>> GetByWebPageIdAsync(int webPageId);
+        Task<DataResponse<IEnumerable<PageSectionDto>>> GetByWebPageIdAsync(int webPageId);
         Task<DataResponse<bool>> UpdatePageSectionAsync(PageSectionUpdateDto dto);
 
     }

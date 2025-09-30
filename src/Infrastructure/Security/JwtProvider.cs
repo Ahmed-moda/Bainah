@@ -13,11 +13,13 @@ public class JwtProvider : IJwtProvider
     public JwtProvider(IOptions<JwtOptions> options) => _options = options.Value;
     public string GenerateToken(User user, IEnumerable<string> roles)
     {
+       
         var claims = new List<Claim> { new Claim(ClaimTypes.NameIdentifier, user.Id.ToString()), new Claim(ClaimTypes.Name, user.UserName ?? ""), new Claim(ClaimTypes.Email, user.Email ?? "") };
         claims.AddRange(roles.Select(r => new Claim(ClaimTypes.Role, r)));
         var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(_options.Secret));
         var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha256);
         var token = new JwtSecurityToken(issuer: _options.Issuer, audience: _options.Audience, claims: claims, expires: DateTime.UtcNow.AddMinutes(_options.ExpiryMinutes), signingCredentials: creds);
         return new JwtSecurityTokenHandler().WriteToken(token);
+
     }
 }

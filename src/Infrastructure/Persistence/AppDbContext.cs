@@ -1,6 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using Bainah.Core.Entities;
 using Core.Entities;
+using Bainah.Core.DTOs;
 namespace Bainah.Infrastructure.Persistence;
 public class AppDbContext : DbContext
 {
@@ -14,4 +15,8 @@ public class AppDbContext : DbContext
     public DbSet<WebPage> WebPages { get; set; } = null!;
     public DbSet<PageSection> PageSections { get; set; } = null!;
     public DbSet<PageSectionPhoto> PageSectionPhoto { get; set; } = null!;
+    public DbSet<City> Cities { get; set; } = null!;
+    public DbSet<Region> Regions { get; set; } = null!;
+    public DbSet<Nationality> Nationalities { get; set; } = null!;
+    public DbSet<CountryDto> Countries { get; set; } = null!;
 }

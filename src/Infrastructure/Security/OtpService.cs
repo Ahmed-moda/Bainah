@@ -1,4 +1,5 @@
 ﻿using Bainah.Core.Entities;
+using Core.DTOs.Otp;
 using Core.Interfaces;
 using Microsoft.AspNetCore.Identity;
 using System;
@@ -19,8 +20,9 @@ namespace Infrastructure.Security
             _userManager = userManager;
         }
 
-        public async Task<string> GenerateOtpAsync(User user)
+        public async Task<OtpExpDto> GenerateOtpAsync(User user)
         {
+            var result = new OtpExpDto();
             if (user.OtpFailedAttempts >= 3)
             {
                 user.OtpFailedAttempts = 0;
@@ -37,8 +39,9 @@ namespace Infrastructure.Security
                 user.LockoutEnd = DateTime.Now.AddHours(1); // lock for 1 hour
 
             await _userManager.UpdateAsync(user);
-
-            return otp;
+            result.Otp = otp;
+            result.Expiry = user.OtpExpiry.Value;
+            return result;
         }
 
         public async Task<bool> ValidateOtpAsync(User user, string otp)

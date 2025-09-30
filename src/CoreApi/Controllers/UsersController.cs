@@ -2,8 +2,8 @@ using Bainah.Core.Entities;
 using Bainah.Core.Interfaces;
 using Bainah.CoreApi.Common;
 using Bainah.CoreApi.DTOs;
+using Core.DTOs.Otp;
 using Core.Interfaces;
-using CoreApi.DTOs;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
@@ -53,9 +53,8 @@ public class UsersController : ControllerBase
             Email = dto.Email,
             PhoneNumber = dto.PhoneNumber,
             NationalId = dto.NationalId,
-            Region = dto.Region,
-            City = dto.City,
-            Street = dto.Street,
+            RegionId = dto.Region,
+            CityId = dto.City,
             EmailConfirmed = true,
             PhoneNumberConfirmed = true
         };
@@ -79,26 +78,53 @@ public class UsersController : ControllerBase
 
 
     [HttpPost("request-otp")]
-
-    public async Task<DataResponse<string>> RequestOtp([FromBody] string nationalId)
+    public async Task<DataResponse<OtpExpDto>> RequestOtp([FromBody] LoginRequestDto model)
     {
-        var user = await _userManager.Users.FirstOrDefaultAsync(u => u.NationalId == nationalId);
+        var response = new DataResponse<OtpExpDto>();
+
+        // 1. Find user by phone
+        var user = await _userManager.Users.FirstOrDefaultAsync(u => u.PhoneNumber == model.PhoneNumber);
         if (user == null)
-            return new DataResponse<string>() { Success = false, Message = "User not found.", Data = null };
+        {
+            response.Success = false;
+            response.Message = "User not found.";
+            return response;
+        }
+
+        // 2. Check if account is locked
+        if (user.LockoutEnd.HasValue && user.LockoutEnd > DateTime.UtcNow)
+        {
+            response.Success = false;
+            response.Message = $"This account is locked until {user.LockoutEnd.Value}.";
+            return response;
+        }
+
+        // 3. Validate password
+        if (!await _userManager.CheckPasswordAsync(user, model.Password))
+        {
+            response.Success = false;
+            response.Message = "Invalid credentials.";
+            return response;
+        }
+
         try
         {
-            if (user.LockoutEnd.HasValue && user.LockoutEnd > DateTime.Now)
-                return new DataResponse<string>() { Success = false, Message = "This Account locked for one hour", Data = null };
+            // 4. Generate OTP if credentials are correct
+            var otp = await _otpService.GenerateOtpAsync(user);
 
-
-            var otp =await _otpService.GenerateOtpAsync(user);
-            return new DataResponse<string>() { Success = true, Message = "OTP sent to registered phone number.", Data = otp };
+            response.Success = true;
+            response.Message = "OTP sent to registered phone number.";
+            response.Data = otp;
+            return response;
         }
         catch (Exception ex)
         {
-            return new DataResponse<string>() { Success = false, Message = ex.Message, Data = null };
+            response.Success = false;
+            response.Message = $"Error: {ex.Message}";
+            return response;
         }
     }
+
 
     [HttpPost("verify-otp")]
     public async Task<DataResponse<string>> VerifyOtp([FromBody] OtpVerifyDto dto)

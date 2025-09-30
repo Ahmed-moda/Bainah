@@ -1,0 +1,39 @@
+```
+# Ignore build results
+[Bb]in/
+[Oo]bj/
+
+# Ignore user-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Ignore build output folders
+CoreApi/[Bb]in/
+CoreApi/[Oo]bj/
+
+PublicBFF/[Bb]in/
+PublicBFF/[Oo]bj/
+
+AdminBFF/[Bb]in/
+AdminBFF/[Oo]bj/
+
+# Visual Studio cache/options
+.vs/
+.vscode/
+
+# NuGet packages
+*.nupkg
+*.snupkg
+*.nuget.props
+*.nuget.targets
+packages/
+
+# Logs
+*.log
+
+# Others
+_ReSharper*/
+[Tt]est[Rr]esult*/
+```

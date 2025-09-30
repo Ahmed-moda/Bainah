@@ -1,4 +1,6 @@
-﻿using Bainah.Core.Entities;
+﻿using AutoMapper;
+using Bainah.Core.DTOs.Pages;
+using Bainah.Core.Entities;
 using Bainah.CoreApi.Common;
 using Bainah.Infrastructure.Persistence;
 using Core.Entities;
@@ -17,20 +19,45 @@ namespace Infrastructure.Repositories
     public class PageSectionRepository : IPageSection
     {
         private readonly AppDbContext _context;
+        private readonly IMapper _mapper;
+
         private readonly string _uploadsFolder;
 
-        public PageSectionRepository(AppDbContext context, IConfiguration config)
+        public PageSectionRepository(AppDbContext context, IConfiguration config, IMapper mapper)
         {
             _context = context;
+            _mapper = mapper;
             _uploadsFolder = Path.Combine(Directory.GetCurrentDirectory(),
             config["FileStorage:Sections"] ?? "wwwroot/uploads/sections");
 
             if (!Directory.Exists(_uploadsFolder))
                 Directory.CreateDirectory(_uploadsFolder);
         }
-        public Task<IEnumerable<PageSection>> GetByWebPageIdAsync(int webPageId)
+        public async Task<DataResponse<IEnumerable<PageSectionDto>>> GetByWebPageIdAsync(int webPageId)
         {
-            throw new NotImplementedException();
+            var result = new DataResponse<IEnumerable<PageSectionDto>>();
+            try
+            {
+                var sections = await _context.PageSections
+                    .Include(s => s.Photos)
+                    .Where(s => s.WebPageId == webPageId)
+                    .OrderBy(s => s.Order)
+                    .ToListAsync();
+
+                var mapped = _mapper.Map<IEnumerable<PageSectionDto>>(sections);
+
+                result.Success = true;
+                result.Data = mapped;
+                result.Message = mapped.Any() ? "Found" : "No sections found";
+            }
+            catch (Exception ex)
+            {
+                result.Success = false;
+                result.Data = null;
+                result.Message = ex.Message;
+            }
+
+            return result;
         }
         public async Task<DataResponse<bool>> UpdatePageSectionAsync(PageSectionUpdateDto dto)
         {
